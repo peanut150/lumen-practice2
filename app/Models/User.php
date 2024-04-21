@@ -8,7 +8,7 @@ class User extends Model{
     protected $table = 'user';
     // column sa table
     protected $fillable = [
-        'username', 'password', 'gender'
+        'username', 'password', 'gender', 'jobid'
     ];
 
     public $timestamps = false;
